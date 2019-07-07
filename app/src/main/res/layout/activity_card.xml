@@ -7,13 +7,13 @@
     android:background="#fff"
     tools:context=".Card">
 
-    <android.support.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/sLideViewPager"
         android:layout_width="match_parent"
         android:layout_height="670dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="0dp"
-        android:layout_marginBottom="35dp"></android.support.view.ViewPager>
+        android:layout_marginBottom="35dp" />
 
     <LinearLayout
         android:id="@+id/dotsLayout"

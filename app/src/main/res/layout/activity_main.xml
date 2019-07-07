@@ -43,18 +43,7 @@
         android:textColor="@android:color/black"
         android:textSize="36sp" />
 
-    <Button
-        android:id="@+id/respuesta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/texto"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="330dp"
-        android:onClick="resp"
-        android:text="Respuestas"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-        android:textColor="@android:color/black"
-        android:textSize="30sp" />
+
 
 
 </RelativeLayout>
