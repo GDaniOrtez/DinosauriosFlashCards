@@ -18,4 +18,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Card.class);
         startActivity(intent);
     }
+
+    public void resp(View view){
+        Intent intent = new Intent(this, Card.class);
+        startActivity(intent);
+    }
+
 }

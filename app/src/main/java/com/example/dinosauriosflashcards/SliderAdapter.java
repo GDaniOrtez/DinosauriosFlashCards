@@ -167,8 +167,10 @@ public class SliderAdapter extends PagerAdapter {
 
     int mRandomNum = Numero(20);
 
+
     @Override
     public Object instantiateItem(ViewGroup container, int position){
+
 
         layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
         View view = layoutInflater.inflate(R.layout.slide_layout, container, false);
@@ -273,6 +275,7 @@ public class SliderAdapter extends PagerAdapter {
         {
             slideImageView.setImageResource(slide_images20[position]);
         }
+
 
         container.addView(view);
 
