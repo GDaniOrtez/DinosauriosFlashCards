@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DinosauriosFlashCards</string>
+    <string name="salir">Salir</string>
+    <string name="siguiente">Siguiente</string>
 </resources>
