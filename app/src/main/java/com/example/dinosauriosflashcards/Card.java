@@ -65,13 +65,13 @@ public class Card extends AppCompatActivity {
             mDots[i] = new TextView(this);
             mDots[i].setText(Html.fromHtml("&#8226;"));
             mDots[i].setTextSize(35);
-            mDots[i].setTextColor(getResources().getColor(R.color.colorAccent));
+            mDots[i].setTextColor(getResources().getColor(R.color.colorTransparentWhite));
 
             mDotLayout.addView(mDots[i]);
         }
 
         if(mDots.length > 0){
-            mDots[position].setTextColor(getResources().getColor(R.color.colorPrimary));
+            mDots[position].setTextColor(getResources().getColor(R.color.colorWhite));
         }
     }
 
