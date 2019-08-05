@@ -94,7 +94,7 @@ public class SliderAdapter extends PagerAdapter {
 
     public int[] slide_images12 ={
 
-            R.mipmap.parasaurolofus,
+            R.mipmap.parasaurolophus,
             R.mipmap.nparasauroolofus,
     };
 
@@ -142,7 +142,7 @@ public class SliderAdapter extends PagerAdapter {
 
     public int[] slide_images20 ={
 
-            R.mipmap.velociraptor,
+            R.mipmap.velocirator,
             R.mipmap.nvelociraptor,
     };
 
